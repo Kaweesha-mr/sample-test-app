@@ -19,12 +19,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.UUID;
 
-/**
- * Order Service - Core business logic for order processing
- * Dependencies: OrderRepository, UserService, ProductService, PaymentService, EmailService, AuditService
- * 
- * This is the most complex service with dependencies on almost all other services
- */
+
 @Service
 public class OrderService {
     
