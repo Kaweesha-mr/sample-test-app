@@ -10,10 +10,6 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Product Service - Manages product catalog
- * Dependencies: ProductRepository, EmailService (for low stock alerts), AuditService
- */
 @Service
 public class ProductService {
     
